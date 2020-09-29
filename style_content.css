@@ -1,0 +1,612 @@
+
+.pusto{
+	height: 440px;
+}
+#black{
+	margin-left: -180px;
+}
+
+/*================================================
+==================full_pass=======================
+=================================================*/
+
+@media screen and (max-width: 600px) {
+	.pass>img{
+	width: 300px
+}
+}
+
+.full_pass{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 350px ,545px));
+	padding-left: 80px;
+}
+
+
+.all7 p{
+	margin-bottom: 100px;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 200%;
+	color: black;
+}
+
+
+/*================================================
+==================advantages=======================
+=================================================*/
+
+.advantages{
+	margin-left: -20px;
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 350px ,700px));
+}
+.card_first, .card_second{
+	display: grid;
+	grid-template-columns: repeat(2, minmax( 150px ,380px));
+}
+
+.card_first{
+	padding-bottom: 30px;
+
+}
+
+
+.advantages{
+	margin-bottom: 100px;
+	font-weight: normal;
+	font-size: 25px;
+	color: black;
+}
+
+.advantages span{
+	font-weight: bold;
+	font-size: 50px;
+	color: black;
+}
+
+	/*==============================================
+	====================TICKETS=====================
+	================================================*/
+
+
+.tickets{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 280px ,300px));
+	grid-gap: 20px;
+	margin-bottom: 100px;
+	max-width: 1300px
+}
+
+.ticket{
+	position: relative;
+	max-width: 295px;
+	max-height: 389px;
+	min-width: 280px;
+	min-height: 362px;
+	background-color: white;
+	border-radius: 11px;
+	box-shadow: 0 0 10px #d6d4d4
+}
+
+
+/*==================INTO=======================*/
+
+.ticket_into{
+	margin-left: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+.dev_logo{
+	margin-top: -5px;
+	margin-left: 25px;
+}
+
+.ticket_text{
+	margin-top: -25px;
+}
+
+.ticket_text>span{
+	opacity:0.7;
+}
+
+.btn_by{
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+	/*============================================
+	====================LEVEL=====================
+	==============================================*/
+
+
+@media screen and (max-width: 585px){ 
+.full_pass{
+	margin-left: -90px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}}
+
+.level_into{
+	margin-left: 85px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+.perdonal{
+	border-radius: 11px;
+	box-shadow: 0 0 10px #d6d4d4;
+	background-color:#f8f8f8;
+}
+
+.level{
+	margin-bottom: 100px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 320px ,610px));
+	grid-gap: 32px;
+}
+
+.one_pass{
+	margin-top: 30px;
+}
+
+
+.level_pass{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 150px ,200px));
+}
+
+
+/*============================================*/
+/*====================test====================*/
+
+
+@media screen and (max-width: 400px){ 
+	.one_pass_bt>input{
+	min-width: 320px;
+	}
+	.onme{
+	min-width: 80px;
+	}
+
+	.popup_wind_1{
+	padding: 30px 0 80px 20px;
+	min-width: 360px;
+	}
+	.popup_into{
+	margin-left: 30px;
+	}
+
+	#bt1, #bt2, #bt3, #bt4{
+		min-width: 250px
+	}
+	#popup{
+	margin-left: -20px;
+}}
+
+@media screen and (min-width: 400px){ 
+	.popup_wind_1{
+	padding: 30px 0 80px 40px;
+	min-width: 400px;
+	}
+	#popup{
+	padding-left: 20px;
+}}
+
+@media screen and (min-width: 900px){ 
+	.popup_wind{
+	min-width: 150px;
+	}
+
+	.popup_wind_1{
+	padding: 30px 0 0px 80px;
+	max-width: 550px;
+	}
+
+	#popup{
+	padding-left: 20px;
+}}
+
+
+
+.popup_wind{
+	border-radius: 11px;
+	box-shadow: 0 0 10px #d6d4d4;
+	background-color:#f8f8f8;
+	padding: 30px 0 80px 80px;
+	z-index: 4;
+}
+
+#blc, #blc1{
+	background-color:black;
+	color:white;
+
+
+}
+
+#popup{
+
+	position: relative;
+	}
+
+.none{
+	display: none;
+}
+
+
+#new_wind{
+position: absolute;
+	margin-bottom: 100px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 320px ,610px));
+	grid-gap: 32px;
+	z-index: 6;
+}
+
+
+/*------------------*/
+
+#i_want_know{position: relative;
+}
+#blc{position: relative;
+}
+/*------------------*/
+
+#kek{
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 20px;
+}
+#hoh{
+text-align: center;
+padding: 200px 80px 142px 0;
+
+}
+
+#heh{
+	text-align: center;
+padding: 200px 0 60px 0;
+
+}
+
+#kok{
+	margin: -595px 0 0 -80px;
+	position: absolute;
+}
+
+.popup_pass_bt{
+	margin-top: 70px;
+
+}
+
+.popup_pass_bt>input{
+
+min-width: 250px;
+margin-bottom: 10px;
+height: 50px;
+left: 20px;
+padding-left: 10px;
+margin-top: 70px;
+color: #000;
+background: #d1d1d1;
+border-radius: 11px;
+border:none;
+font-size: 16px;
+line-height: 130%;
+}
+
+
+/*==================new wind==================*/
+/*==================new wind==================*/
+
+
+ .into_pass1{
+ 	padding: 130px 0 100px 0;
+ 	font-size: 18px
+ }
+
+ #ok{
+ 	text-align: center;
+ 	margin:30% 0 50px -12%;
+ }
+
+.popup_into{
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+.popup_wind_1{
+	border-radius: 11px;
+	box-shadow: 0 0 10px #d6d4d4;
+	background-color:#f8f8f8;
+z-index: 4;
+}
+
+.level_bt{
+	margin-bottom: 100px;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 320px ,610px));
+	grid-gap: 32px;
+}
+
+	/*============================================
+	====================last_video================
+	==============================================*/
+
+.last_video{
+	margin-bottom: 110px;
+}
+
+
+.last_video>h2{
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.last_video_cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax( 280px ,295px));
+	grid-gap: 20px;
+}
+
+.last_video_card{
+	width: 295px;
+	height: 300px;
+	border-radius: 11px;
+	box-shadow: 0 0 10px #d6d4d4;
+	background-color:#f8f8f8;
+}
+
+.last_video_card>p{
+	margin-top: 18px;
+	margin-left: 27px;
+	opacity: 0.7;
+}
+.last_video_card>p span{
+	opacity: 1;
+	font-size: 18px;
+
+}
+
+	/*========================================
+	====================why===================
+	==========================================*/
+
+
+@media screen and (min-width: 300px){ 
+	.why, .feedback{
+	width: 350px;
+
+	}
+	.lev_tolstoy{
+		width: 350px;
+		margin: 50px 0 0 0px;
+	}
+	.lev_tolstoy>img{
+		width: 350px;
+
+	}
+}
+
+@media screen and (min-width: 700px){ 
+	.why, .feedback{
+	width: 500px;
+	margin-left: 100px;
+	}
+
+	.lev_tolstoy{
+		width: 500px;
+		margin: 150px 0 100px 50px;
+	}
+
+	.lev_tolstoy>img{
+		width: 500px;
+		
+	}
+}
+
+
+@media screen and (min-width: 900px){ 
+	.why, .feedback{
+	width: 700px;
+	margin-left: 300px;
+	}
+	.lev_tolstoy{
+		margin:  0 0 300px 150px;
+		width: 1100px;
+	
+	}
+	.lev_tolstoy>img{
+	float:right;
+}}
+
+
+.why>h2{
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+
+.save_time>img, .get_knowing>img, .watch_content>img{
+	float: left;
+	margin-right: 50px;
+	
+}
+
+.save_time, .get_knowing, .watch_content{
+	margin: 10px 80px 100px 50px ;
+	
+}
+
+
+
+.lev_tolstoy>p{
+	max-width: 500px;
+
+}
+
+	/*========================================
+	====================feedback===================
+	==========================================*/
+
+
+.feedback{
+	text-align: center;
+}
+
+.feedback>div{
+border-radius: 11px;
+	background-color:#f8f8f8;
+	width: 630px;
+	height: 333px;
+	margin:75px 0 200px 50px;
+
+}
+
+/*========================================
+	====================about===================
+	==========================================*/
+
+@media screen and (max-width: 400px){
+	.about{min-width: 550px;
+		margin-left: -120px;
+	}
+	.about_card{
+		opacity: 0;
+	}
+	.about_info{
+		margin-left: 60px;
+		padding-top: 300px;
+	}
+}
+@media screen and (min-width: 400px){
+	.about{
+		min-width: 800px;
+		margin-left: -80px;
+	}
+	.about_card{
+		opacity: 0;
+	}
+	.about_info{
+		margin-left: 180px;
+		padding-top: 300px;
+	}}
+
+@media screen and (min-width: 900px){
+	.about{min-width: 1600px;
+	margin-left: -150px;
+	}
+	.about_card{
+	opacity: 1;
+	margin:-100px 0 0  250px;
+		
+	}
+
+	.about_info{
+	margin: 100px 0 300px  300px;
+	padding-top: 200px;
+	}}
+
+
+	.about{
+	background:url(img/about/fon2.png) no-repeat;
+	height: 1300px;
+	color: white;
+}
+
+.about_card{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 400px ));
+	color: white;
+}
+
+.about_info{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 400px ));
+	
+	grid-gap: 10px;
+	color: white;
+	max-width: 1000px;
+}
+
+.about_text {
+	width: 300px;	
+}
+
+.about_text span{
+	font-weight: bold;
+	font-size: 50px;	
+}
+
+.about_card span{
+	font-weight: bold;
+	font-size: 50px; 
+	
+}
+
+.about>img{
+	margin-top: 300px;
+	margin-right: -300px;
+}
+
+.about_first, .about_second, .about_therd{
+	display: grid;
+	grid-template-columns: 1, minmax( 234px ,300px);
+}
+
+	/*========================================
+	====================footer================
+	==========================================*/
+
+.footer_{
+		/*margin-left: -50px;*/
+}
+
+
+.footer_a{
+	display:grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 30px;
+	margin-left: -50px;
+	padding: 30px 0 30px 0;
+}
+
+.circle{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #f8f8f8;;
+}
+#footer_share{
+	margin-left: 30%;
+}
+#footer_share>li{
+	float: left;
+	list-style-type: none;
+	padding-left:10px;
+	
+}
+
+#circle1{
+	margin:10px 0 0 5px ;
+}
+#circle2{
+	margin:6px 0 0 10px ;
+}
+#circle3{
+	margin:8px 0 0 6px ;
+}
+
+.footer_a span{
+	color:#808080;
+	margin-right: 20px;
+}
+

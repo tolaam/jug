@@ -1,0 +1,340 @@
+*{
+	margin: 0 ;
+	padding: 0 ;
+	font-family: Montserrat;
+	font-style: normal;
+}
+
+
+
+@media screen and  (max-width: 400px) {
+	.header{
+	min-width: 300px;
+	top:450px;
+	}
+
+	.header_text{
+	min-width:400px;}
+
+	#show_bye{
+	top: 405px;}
+
+	#show_fuck{
+	left:250px;
+	top: 405px;}
+
+	#arm{
+	left:10px;
+	top: 303px;}
+	
+	#face{
+	left:100px;
+	top: 373px;}
+
+	.bg{
+	display: block;
+	position: relative;}
+
+	.but{
+	min-width: 280px;
+	min-height: 310px;
+	}
+
+	#bt1, #bt2, #bt3, #bt4{
+		min-width: 153px;}
+
+	#bye{
+		min-width: 320px
+	}
+
+
+	#bg1{transform: scale(1.5);
+		margin-left: 100px;
+	}
+	#line{
+		transform: scale(1.5);
+		margin:40px 0 0 120px;
+	}
+
+	body{
+		min-width: 320px;
+
+	}
+	.container{
+	margin-left: 120px;
+}
+	
+	#black{
+		width:420px;
+		 height:3000px;
+	}
+}
+
+@media screen and  (max-width: 550px) {
+	.header{
+		min-width: 300px;
+		bottom:	100px;
+		position: absolute;
+	}
+
+	#logo{
+		padding-bottom:13px;}
+
+	.header_text{
+	max-width:400px;}
+
+	#show_bye{
+	top: 405px;
+	}
+	#show_fuck{
+	left:200px;
+	top: 405px;
+	}
+
+	#arm{
+	left:75px;
+	top: 363px;
+	width: 44px;
+	height: 44px;
+	}
+
+	#face{
+	left:285px;
+	top: 373px;
+	}
+	
+	.bg{
+	display: block;
+	position: relative;}
+
+	#bg1{right: -40px;}
+
+	#line{right: -40px;}
+
+	.back{display: none}
+
+	#black{
+		width:700px;
+		 height:5000px;
+	}
+
+	.container{
+		margin-left: 120px;
+	}
+
+	#bt1, #bt2, #bt3, #bt4{
+		min-width: 350px;}
+	}
+
+	@media screen and  (min-width: 550px) {
+		.header_info{
+			max-width: 700px;	
+		}
+
+		.container{
+			max-width: 1600px;
+			margin-left: 200px;
+		}
+
+		#show_bye{
+			top: 555px;
+		}
+		#show_fuck{
+			left:250px;
+			top: 555px;
+		}
+
+		#arm{
+			left:90px;
+			top: 513px;
+			width: 53px;
+			height: 53px;
+		}
+		#face{
+			left:340px;
+			top: 523px;
+		}
+
+		#logo{
+			padding-top:148px;
+			padding-bottom:57px;
+		}
+
+		.header_text{
+			max-width:460px;
+		}
+
+		#bye{
+			min-width: 1250px;
+			min-height: 588px;
+		}
+
+	#black{
+		width:2000px;
+		height:6000px;
+		
+	}
+
+	
+
+	.bg{
+		display: none;
+		}}
+	/*--------------------------------------------*/
+	/*---------------End @Media--------------------*/
+	/*--------------------------------------------*/
+
+
+
+#black{
+	position: absolute;
+	/*width: 2000px;
+	height: 5000px;*/
+	background-color: black;
+	z-index: 1;
+	margin-left: -150px;
+}
+
+.opass{
+	display: none;
+}
+.opas{
+	opacity: 0.4;
+}
+
+
+}
+
+#line{
+z-index: 2;
+position: absolute;
+top: -20px
+}
+
+#bg2{
+z-index: 2;
+position: absolute;
+top: -100px;
+left:500px;
+}
+
+#line1{
+z-index: 3;
+position: absolute;
+opacity: 0.8;
+top: -120px;
+left:700px;
+}*/
+
+
+.header_h{
+width: 400px;
+font-weight: bold;
+font-size: 50px;
+line-height: 120%;
+color: black;
+margin-bottom: 20px;
+
+}
+
+.header_text{
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+	/*=================================================
+	=====================BUTTON========================
+	===================================================*/
+
+#arm{
+	position: absolute;
+}
+
+#show_bye{
+	position: absolute;
+	max-width: 44px;
+	height: 44px;
+}
+
+#face{
+	position: absolute;
+	width: 44px;
+	height: 44px;
+}
+
+
+#show_fuck{
+	position: absolute;
+	max-width: 44px;
+	height: 44px;
+}
+	
+
+.btn{
+
+	position: relative;
+	min-width: 200px;
+	top:-340px;
+}
+
+.none{
+	display: none;
+}
+
+	/*=================================================
+	=====================DIALOG========================
+	===================================================
+	=====================white=======================*/
+
+
+#onme{
+	position: relative;
+	margin-bottom: -100px;
+	margin-top: 30px;
+	border:none;
+	background-color: #f8f8f8;
+	font-size: 18px;
+	line-height: 150%;
+	color: black;
+}
+
+#onme>img{
+	position: absolute;
+	margin:1px 0 0 -30px;
+}
+
+#agree{
+	width: 237px;
+	left: 30px;
+	margin-top: 80px;
+	font-size: 12px;
+	line-height: 150%;
+	color: rgba(0, 0, 0, 0.32);
+}
+
+#agree>span{
+	text-decoration:underline;}
+
+#subcribe{
+	width: 161px;
+	height: 50px;
+	left: 370px;
+	top: 270px;
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	box-sizing: border-box;
+	border-radius: 11px;
+}
+
+/*=============Block Button==================*/
+
+
+#bt1, #bt2, #bt3, #bt4{
+
+margin-bottom: 20px;
+align-items: center;
+}

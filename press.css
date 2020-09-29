@@ -1,0 +1,14 @@
+.press{box-sizing:border-box;background-color:var(--p);border:1px solid var(--p);color:var(--c);cursor:pointer;display:inline-block;font-size:1em;margin:0;padding:0.5em 0.75em;text-align:center;text-decoration:none;transition:background 0.15s linear}
+.press-yellow{--p: #FBCB03;--c: #000;--h:#E6B901;--a: #FBCB03}
+.press-black{--p: #000;--c: #fff;--h: #2e2e2e ;--a: #000}
+.press-white{--p: #fff;--c: #000;--h: #fff;--a: #e6e6e6}
+.press-pill{border-radius:30px / 50%}
+.press-ghost{color:var(--p);background-color:transparent; border:1px solid black; border-radius: 20px}
+
+.press-lg{font-size:1.2em; font-family: Montserrat; font-style: normal; font-weight: 300; min-width: 210px; min-height: 65px; margin: 10px 10px 10px 10px; }.press-xl{font-size:1.5em}
+.press-xl{font-size:1em; font-family: Montserrat; font-style: normal; font-weight: 300; min-width: 450px; min-height: 50px; margin: 5px 5px 5px 5px;}
+.press-l{font-size:1em; font-family: Montserrat; font-style: normal; font-weight: 200; width: 120px; height: 40px; margin: 5px 5px 5px 5px;}
+.press-teal{border-radius:5% /17%}
+.press-no{border-radius:50px /50px; border:1px solid white;}
+@media screen and  (max-width: 550px) {.press-lg{min-width: 180px; min-height: 55px; font-size:1em; margin: 3px 3px 3px 3px;}}
+@media screen and  (max-width: 400px) {.press-lg{min-width: 150px; min-height: 45px; font-size:0.9em; margin: 3px 3px 3px 3px;}}
